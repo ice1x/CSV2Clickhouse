@@ -1,4 +1,4 @@
-# Redis2WebSocketStreaming
-Redis2WebSocketStreaming
+# CSV2Clickhouse import
 
-I would like to demonstrate easy way to stream logs from Redis to WebSocket with minimal chains
+- Get row names from CSV headers
+- Get row types from CSV data
