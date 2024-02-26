@@ -42,7 +42,6 @@ if __name__ == "__main__":
     from pathlib import Path
 
     file_name = sys.argv[1]
-    # file_name = "JC-202311-citibike-tripdata.csv"
 
     df = pd.read_csv(file_name, nrows=1)
     create_table(f"`{Path(file_name).name}`", df)
