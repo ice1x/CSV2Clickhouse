@@ -1,0 +1,4 @@
+CH_SERVER_URL = "localhost"
+CH_SERVER_PORT = 9123
+USER = ""
+PASSWORD = ""
